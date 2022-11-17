@@ -13,7 +13,11 @@ export function Main() {
           </form>
         </fieldset>
       </section>
-      <section className="entries"></section>
+      <section className="entries">
+        <article>
+                       
+        </article>
+      </section>
     </>
   );
 }
