@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+/*
+prototype https://github.com/neuefische/web-exercises/blob/main/sessions/react-project-setup/journal-app/resources/journal_app_design@2x.png
+*/
+
+* {
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
