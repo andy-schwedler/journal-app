@@ -39,9 +39,32 @@
 /*
 prototype https://github.com/neuefische/web-exercises/blob/main/sessions/react-project-setup/journal-app/resources/journal_app_design@2x.png
 */
+/* box-sizing: border-box; */
 
-* {
+h1 {
+  width: 100vw;
+  margin: 0px;
+  margin-bottom: 20px;
+  background-color: whitesmoke;
+  color: darkgray;
   text-align: center;
+}
+
+fieldset {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  margin-left: 40%;
+  margin-right: 40%;
+  padding: 0px;
+}
+
+legend {
+  text-align: center;
+}
+
+input {
+  height: 80px;
 }
 
 .form {
