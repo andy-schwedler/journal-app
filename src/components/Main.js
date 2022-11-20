@@ -12,18 +12,34 @@ export function Main() {
             Notes
           </label>
           <textarea className="userinputtextarea" name="Notes" />
+          <button type="submit" className="button">
+            create
+          </button>
         </form>
-        <button className="button">create</button>
         <section className="EntriesAndTabs">
-          <article>
-            <p>All Entries</p>
-            <p>C</p>
-          </article>
-          <article>
-            <p>Favorites</p>
-            <p>C</p>
-          </article>
+          <p>All Entries</p>
+          <p>C</p>
+          <p>Favorites</p>
+          <p>C</p>
         </section>
+        <article>
+          <p className="date">Nov 18, 2022</p>
+          <h2>Motto</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+            erat, sed diam voluptua.
+          </p>
+        </article>
+        <article className="entry--flexbox">
+          <p className="entry--date">Nov 18, 2022</p>
+          <h2 className="entry--header">Motto</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+            erat, sed diam voluptua.
+          </p>
+        </article>
       </main>
     </>
   );
