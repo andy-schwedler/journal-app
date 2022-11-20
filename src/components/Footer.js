@@ -3,9 +3,7 @@ console.clear();
 export function Footer() {
   return (
     <>
-      <footer className="footer">
-        <p>Journal App 2022</p>
-      </footer>
+      <footer className="footer">Journal App 2022</footer>
     </>
   );
 }

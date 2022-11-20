@@ -26,16 +26,16 @@ export function Main() {
           <article className="entry--box">
             <p className="entry--date">Nov 18, 2022</p>
             <h2 className="entry--header">Motto</h2>
-            <p>
+            <p className="loggedjournalnotes">
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
               nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
               erat, sed diam voluptua.
             </p>
           </article>
-          <article>
+          <article className="entry--box">
             <p className="entry--date">Nov 18, 2022</p>
-            <h2>Motto</h2>
-            <p>
+            <h2 className="entry--header">Motto</h2>
+            <p className="loggedjournalnotes">
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
               nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
               erat, sed diam voluptua.

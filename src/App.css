@@ -48,10 +48,28 @@ h3 {
   gap: 10px;
 }
 
+.userinput {
+  height: 41px;
+  width: 336px;
+  left: 0px;
+  top: 24px;
+  margin-bottom: 22px;
+}
+
+.userinputtextarea {
+  height: 124px;
+  width: 336px;
+  left: 0px;
+  top: 24px;
+  border-radius: 0px;
+  border-color: grey;
+}
+
 textarea:focus,
 input:focus {
   outline-color: #ff4a11;
-  color: green;
+  color: #ff4a11;
+  caret-color: transparent;
 }
 
 .button {
@@ -69,34 +87,21 @@ input:focus {
   margin-top: 22px;
 }
 
-.userinput {
-  height: 41px;
-  width: 336px;
-  left: 0px;
-  top: 24px;
-  margin-bottom: 22px;
-}
-
-.userinputtextarea {
-  height: 124px;
-  width: 336px;
-  left: 0px;
-  top: 24px;
-  border-radius: 0px;
-  border-color: gray;
-}
+/* AFTER CREATE BUTTON */
 
 .EntriesAndTabs {
   display: flex;
   flex-direction: column;
   width: 336px;
   align-self: center;
-  gap: 10px;
+  gap: 15px;
+  margin-bottom: 30px;
 }
 
 .tab {
   display: flex;
   flex-direction: row;
+  margin-bottom: 10px;
 }
 
 .counter {
@@ -110,16 +115,25 @@ p {
 
 .entry--box {
   align-self: center;
+  margin-bottom: 10px;
 }
 
 .entry--date {
   justify-content: center;
   text-align: center;
+  font-style: initial;
+}
+
+.loggedjournalnotes {
+  text-align: justify;
 }
 
 footer {
   padding-top: 32px;
+  padding-bottom: 32px;
+  font-size: large;
+  align-self: center;
   background-color: #252629;
-  color: whitesmoke;
+  color: lightgray;
   text-align: center;
 }
