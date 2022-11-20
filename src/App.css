@@ -94,6 +94,7 @@ input:focus {
   flex-direction: row;
   width: 336px;
   align-self: center;
+  justify-content: flex-start;
   gap: 15px;
   margin-bottom: 30px;
 }
@@ -119,7 +120,7 @@ p {
 .Memory--Container {
   align-self: center;
   margin-bottom: 10px;
-  margin-top: 30px;
+  margin-top: 60px;
 }
 
 .Memory--Container__header {
