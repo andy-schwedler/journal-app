@@ -1,4 +1,11 @@
 console.clear();
+
 export function Header() {
-  return <h1>Journal</h1>;
+  return (
+    <>
+      <header className="header">
+        <h1>Journal</h1>
+      </header>
+    </>
+  );
 }

@@ -1,103 +1,91 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 /*
 prototype https://github.com/neuefische/web-exercises/blob/main/sessions/react-project-setup/journal-app/resources/journal_app_design@2x.png
 */
 /* box-sizing: border-box; */
 
-h1 {
-  width: 100vw;
-  margin: 0px;
-  margin-bottom: 40px;
-  background-color: whitesmoke;
-  color: darkgray;
-  text-align: center;
-}
-
-fieldset {
-  border: none;
+/* #root {
   display: flex;
   flex-direction: column;
-  margin-left: 30%;
-  margin-right: 30%;
+  align-items: flex-start;
   padding: 0px;
-}
+  gap: 32px;
 
-.form {
+  position: relative;
+  height: 1360px;
+
+  background: #ffffff;
+} */
+
+.header {
   display: flex;
-  justify-content: center;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 16px;
   gap: 10px;
+
+  width: 368px;
+  height: 54px;
 }
 
-legend {
-  text-align: center;
-  margin-bottom: 15%;
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 16px;
+  gap: 80px;
 }
 
-.FormLabel {
-  color: darkgray;
-  width: auto;
+h3 {
+  text-transform: uppercase;
+  align-self: center;
   font-size: small;
 }
 
-.userinput,
-.userinputtextarea {
-  border-color: whitesmoke;
-  border-radius: 5px;
+.EntryForm {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: center;
+  gap: 10px;
+}
+
+button {
+  align-self: center;
+  background-color: #ff4a11;
+  border-color: #ff4a11;
+  color: white;
+  width: 133px;
+  height: 48px;
+  border-radius: 4px;
+  box-shadow: none;
+  width: 133px;
+  height: 48px;
+  border-style: none;
 }
 
 .userinput {
-  height: 40px;
-  margin-bottom: 20px;
-}
-
-.userinput:focus {
-  border: orangered;
+  height: 41px;
+  width: 336px;
+  left: 0px;
+  top: 24px;
+  margin-bottom: 22px;
 }
 
 .userinputtextarea {
-  height: 80px;
-  margin-bottom: 20px;
+  height: 124px;
+  width: 336px;
+  left: 0px;
+  top: 24px;
+  border-radius: 0px;
+  border-color: gray;
 }
 
-.button {
-  border-radius: 30px;
-  background-color: orangered;
+.EntriesAndTabs {
+  display: flex;
+}
+
+article {
+  display: flex;
+  align-items: flex-start;
 }
