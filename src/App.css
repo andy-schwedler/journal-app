@@ -31,7 +31,7 @@ prototype https://github.com/neuefische/web-exercises/blob/main/sessions/react-p
   flex-direction: column;
   align-items: center;
   padding: 0px 16px;
-  gap: 60px;
+  gap: 30px;
 }
 
 h3 {
@@ -46,6 +46,30 @@ h3 {
   align-items: flex-start;
   align-self: center;
   gap: 10px;
+}
+
+.userinput {
+  height: 41px;
+  width: 336px;
+  left: 0px;
+  top: 24px;
+  margin-bottom: 22px;
+}
+
+.userinputtextarea {
+  height: 124px;
+  width: 336px;
+  left: 0px;
+  top: 24px;
+  border-radius: 0px;
+  border-color: grey;
+}
+
+textarea:focus,
+input:focus {
+  outline-color: #ff4a11;
+  color: #ff4a11;
+  caret-color: transparent;
 }
 
 .button {
@@ -63,39 +87,63 @@ h3 {
   margin-top: 22px;
 }
 
-.userinput {
-  height: 41px;
-  width: 336px;
-  left: 0px;
-  top: 24px;
-  margin-bottom: 22px;
-}
+/* AFTER CREATE BUTTON */
 
-.userinputtextarea {
-  height: 124px;
-  width: 336px;
-  left: 0px;
-  top: 24px;
-  border-radius: 0px;
-  border-color: gray;
-}
-
-.EntriesAndTabs {
+.Tab {
   display: flex;
   flex-direction: row;
+  width: 336px;
   align-self: center;
-  gap: 10px;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.allEntries {
+  display: flex;
+  color: #ff4a11;
+}
+
+.allFavorites {
+  display: flex;
+}
+
+.counter {
+  color: #ff4a11;
+  margin-right: 15px;
 }
 
 p {
   margin-right: 3px;
 }
 
-.entry--box {
+.Memory--Container {
   align-self: center;
+  margin-bottom: 10px;
+  margin-top: 30px;
 }
 
-.entry--date {
+.Memory--Container__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Memory--Container__date {
   justify-content: center;
+  text-align: center;
+  font-style: initial;
+}
+
+.loggedjournalnotes {
+  text-align: justify;
+}
+
+footer {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font-size: large;
+  align-self: center;
+  background-color: #252629;
+  color: lightgray;
   text-align: center;
 }

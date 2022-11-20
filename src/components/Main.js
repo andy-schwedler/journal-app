@@ -16,30 +16,42 @@ export function Main() {
             create
           </button>
         </form>
-        <section className="EntriesAndTabs">
-          <p>All Entries</p>
-          <p>C</p>
-          <p>Favorites</p>
-          <p>C</p>
+        <section className="Tab">
+          <article className="allEntries">
+            <p>All Entries</p>
+            <p>C</p>
+          </article>
+          <article className="allFavorites">
+            <p>Favorites</p>
+            <p>C</p>
+          </article>
         </section>
-        <article className="entry--flexbox">
-          <p className="entry--date">Nov 18, 2022</p>
-          <h2 className="entry--header">Motto</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua.
-          </p>
-        </article>
-        <article>
-          <p className="entry--date">Nov 18, 2022</p>
-          <h2>Motto</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua.
-          </p>
-        </article>
+        <section className="Entries">
+          <article className="Memory--Container">
+            <p className="Memory--Container__date">Nov 18, 2022</p>
+            <div className="Memory--Container__header">
+              <h2 className="entry--header">Motto</h2>
+              <img alt="bookmark" />
+            </div>
+            <p className="loggedjournalnotes">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+              erat, sed diam voluptua.
+            </p>
+          </article>
+          <article className="Memory--Container">
+            <p className="Memory--Container__date">Nov 18, 2022</p>
+            <div className="Memory--Container__header">
+              <h2 className="entry--header">Motto</h2>
+              <img alt="bookmark" />
+            </div>
+            <p className="loggedjournalnotes">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+              erat, sed diam voluptua.
+            </p>
+          </article>
+        </section>
       </main>
     </>
   );
