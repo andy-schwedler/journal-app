@@ -17,29 +17,31 @@ export function Main() {
           </button>
         </form>
         <section className="EntriesAndTabs">
-          <p>All Entries</p>
-          <p>C</p>
-          <p>Favorites</p>
-          <p>C</p>
+          <article className="tab">
+            <p>All Entries</p>
+            <p className="counter">C</p>
+            <p>Favorites</p>
+            <p className="counter">C</p>
+          </article>
+          <article className="entry--box">
+            <p className="entry--date">Nov 18, 2022</p>
+            <h2 className="entry--header">Motto</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+              erat, sed diam voluptua.
+            </p>
+          </article>
+          <article>
+            <p className="entry--date">Nov 18, 2022</p>
+            <h2>Motto</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+              erat, sed diam voluptua.
+            </p>
+          </article>
         </section>
-        <article className="entry--flexbox">
-          <p className="entry--date">Nov 18, 2022</p>
-          <h2 className="entry--header">Motto</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua.
-          </p>
-        </article>
-        <article>
-          <p className="entry--date">Nov 18, 2022</p>
-          <h2>Motto</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua.
-          </p>
-        </article>
       </main>
     </>
   );

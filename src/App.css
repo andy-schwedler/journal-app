@@ -48,6 +48,12 @@ h3 {
   gap: 10px;
 }
 
+textarea:focus,
+input:focus {
+  outline-color: #ff4a11;
+  color: green;
+}
+
 .button {
   align-self: center;
   background-color: #ff4a11;
@@ -82,9 +88,20 @@ h3 {
 
 .EntriesAndTabs {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  width: 336px;
   align-self: center;
   gap: 10px;
+}
+
+.tab {
+  display: flex;
+  flex-direction: row;
+}
+
+.counter {
+  color: #ff4a11;
+  margin-right: 15px;
 }
 
 p {
@@ -97,5 +114,12 @@ p {
 
 .entry--date {
   justify-content: center;
+  text-align: center;
+}
+
+footer {
+  padding-top: 32px;
+  background-color: #252629;
+  color: whitesmoke;
   text-align: center;
 }
