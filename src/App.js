@@ -10,11 +10,9 @@ function App() {
   return (
     <>
       <Header />
-
       <Form />
       <Tab />
       <Memories />
-
       <Footer />
     </>
   );
