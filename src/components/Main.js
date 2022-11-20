@@ -1,8 +1,0 @@
-function stupid() {
-  return (
-    <>
-  </>
-  );
-}
-
-stupid();
