@@ -44,7 +44,7 @@ prototype https://github.com/neuefische/web-exercises/blob/main/sessions/react-p
 h1 {
   width: 100vw;
   margin: 0px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   background-color: whitesmoke;
   color: darkgray;
   text-align: center;
@@ -54,21 +54,50 @@ fieldset {
   border: none;
   display: flex;
   flex-direction: column;
-  margin-left: 40%;
-  margin-right: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
   padding: 0px;
-}
-
-legend {
-  text-align: center;
-}
-
-input {
-  height: 80px;
 }
 
 .form {
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+legend {
+  text-align: center;
+  margin-bottom: 15%;
+}
+
+.FormLabel {
+  color: darkgray;
+  width: auto;
+  font-size: small;
+}
+
+.userinput,
+.userinputtextarea {
+  border-color: whitesmoke;
+  border-radius: 5px;
+}
+
+.userinput {
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+.userinput:focus {
+  border: orangered;
+}
+
+.userinputtextarea {
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+.button {
+  border-radius: 30px;
+  background-color: orangered;
 }
