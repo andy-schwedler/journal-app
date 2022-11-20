@@ -83,7 +83,7 @@ h3 {
 .EntriesAndTabs {
   display: flex;
   flex-direction: row;
-  align-self: flex-start;
+  align-self: center;
   gap: 10px;
 }
 
@@ -91,6 +91,11 @@ p {
   margin-right: 3px;
 }
 
-.entry--flexbox {
-  align-items: center;
+.entry--box {
+  align-self: center;
+}
+
+.entry--date {
+  justify-content: center;
+  text-align: center;
 }

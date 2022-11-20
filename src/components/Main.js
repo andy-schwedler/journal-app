@@ -22,18 +22,18 @@ export function Main() {
           <p>Favorites</p>
           <p>C</p>
         </section>
-        <article>
-          <p className="date">Nov 18, 2022</p>
-          <h2>Motto</h2>
+        <article className="entry--flexbox">
+          <p className="entry--date">Nov 18, 2022</p>
+          <h2 className="entry--header">Motto</h2>
           <p>
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
             nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
             erat, sed diam voluptua.
           </p>
         </article>
-        <article className="entry--flexbox">
+        <article>
           <p className="entry--date">Nov 18, 2022</p>
-          <h2 className="entry--header">Motto</h2>
+          <h2>Motto</h2>
           <p>
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
             nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
