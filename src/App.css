@@ -1,7 +1,22 @@
-/*
-prototype https://github.com/neuefische/web-exercises/blob/main/sessions/react-project-setup/journal-app/resources/journal_app_design@2x.png
-*/
-/* box-sizing: border-box; */
+@import "./components/Header/Header.css";
+@import "./components/Form/Form.css";
+@import "./components/Entries/Entries.css";
+@import "./components/Tab/Tab.css";
+
+:root {
+  /* Used for texts (+ footer background) */
+  --color-granite: #252629;
+  /* Used for backgrounds (+ footer text color) */
+  --color-foam: #ffffff;
+  /* Used for buttons, icons, etc. */
+  --color-nemo: #ff4a11;
+  /* active color for buttons, icons, etc. */
+  --color-nemo-mid: #ff5c29;
+  /* hover color for buttons, icons, etc. */
+  --color-nemo-dark: #e5430f;
+  /* Used for borders and some backgrounds */
+  --color-water-10: #e4e8f0;
+}
 
 #root {
   display: flex;
@@ -9,79 +24,6 @@ prototype https://github.com/neuefische/web-exercises/blob/main/sessions/react-p
   padding: 0px;
   gap: 32px;
   background: #ffffff;
-}
-
-.header {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 18px 16px;
-  gap: 10px;
-  background-color: #e4e8f0;
-}
-
-h3 {
-  text-transform: uppercase;
-  align-self: center;
-  font-size: small;
-}
-
-.EntryForm {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  align-self: center;
-}
-
-.userinput {
-  height: 41px;
-  width: 336px;
-  left: 0px;
-  top: 24px;
-  margin-bottom: 22px;
-}
-
-.userinputtextarea {
-  height: 124px;
-  width: 336px;
-  left: 0px;
-  top: 24px;
-  border-radius: 0px;
-  border-color: grey;
-}
-
-textarea:focus,
-input:focus {
-  outline-color: #ff4a11;
-  color: #ff4a11;
-  caret-color: transparent;
-}
-
-.button {
-  align-self: center;
-  background-color: #ff4a11;
-  border-color: #ff4a11;
-  color: white;
-  width: 133px;
-  height: 48px;
-  border-radius: 4px;
-  box-shadow: none;
-  width: 133px;
-  height: 48px;
-  border-style: none;
-  margin-top: 22px;
-}
-
-/* AFTER CREATE BUTTON */
-
-.Tab {
-  display: flex;
-  flex-direction: row;
-  width: 336px;
-  align-self: center;
-  gap: 15px;
-  margin-bottom: 30px;
 }
 
 .allEntries {
@@ -122,15 +64,4 @@ p {
 
 .loggedjournalnotes {
   text-align: justify;
-}
-
-footer {
-  padding-top: 32px;
-  padding-bottom: 32px;
-  font-size: large;
-  align-self: center;
-  background-color: #252629;
-  color: lightgray;
-  text-align: center;
-  width: 100vw;
 }

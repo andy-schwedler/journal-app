@@ -1,0 +1,8 @@
+.Tab {
+  display: flex;
+  flex-direction: row;
+  width: 336px;
+  align-self: center;
+  gap: 15px;
+  margin-bottom: 30px;
+}
