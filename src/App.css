@@ -8,10 +8,6 @@ prototype https://github.com/neuefische/web-exercises/blob/main/sessions/react-p
   flex-direction: column;
   padding: 0px;
   gap: 32px;
-
-  position: relative;
-  height: 1360px;
-
   background: #ffffff;
 }
 
@@ -136,4 +132,5 @@ footer {
   background-color: #252629;
   color: lightgray;
   text-align: center;
+  width: 100vw;
 }

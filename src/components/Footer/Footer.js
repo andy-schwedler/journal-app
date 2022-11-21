@@ -1,5 +1,3 @@
-console.clear();
-
 export function Footer() {
   return (
     <>
