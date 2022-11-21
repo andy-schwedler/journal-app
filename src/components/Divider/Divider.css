@@ -1,0 +1,8 @@
+.divider {
+  border: none;
+  margin: 0;
+  width: 50%;
+  align-self: center;
+  height: 1px;
+  background: var(--color-water-10);
+}

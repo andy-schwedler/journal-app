@@ -1,4 +1,6 @@
-export function Memories() {
+import { Divider } from "../Divider/Divider";
+
+export function Entries() {
   return (
     <>
       <article className="Memory--Container">
@@ -27,6 +29,7 @@ export function Memories() {
           sed diam voluptua.
         </p>
       </article>
+      <Divider />
       <article className="Memory--Container">
         <p className="Memory--Container__date">Nov 18, 2022</p>
         <div className="Memory--Container__header">

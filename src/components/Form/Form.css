@@ -1,0 +1,51 @@
+h3 {
+  text-transform: uppercase;
+  align-self: center;
+  font-size: small;
+}
+
+.EntryForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-self: center;
+}
+
+.userinput {
+  height: 41px;
+  width: 336px;
+  left: 0px;
+  top: 24px;
+  margin-bottom: 22px;
+}
+
+.userinputtextarea {
+  height: 124px;
+  width: 336px;
+  left: 0px;
+  top: 24px;
+  border-radius: 0px;
+  border-color: grey;
+}
+
+textarea:focus,
+input:focus {
+  outline-color: #ff4a11;
+  color: #ff4a11;
+  caret-color: transparent;
+}
+
+.button {
+  align-self: center;
+  background-color: #ff4a11;
+  border-color: #ff4a11;
+  color: white;
+  width: 133px;
+  height: 48px;
+  border-radius: 4px;
+  box-shadow: none;
+  width: 133px;
+  height: 48px;
+  border-style: none;
+  margin-top: 22px;
+}
