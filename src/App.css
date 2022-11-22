@@ -26,6 +26,8 @@
   background: #ffffff;
 }
 
+/* °°°°°°REMOVE BELOW°°°°°° */
+
 .allEntries {
   display: flex;
   color: #ff4a11;
@@ -42,24 +44,6 @@
 
 p {
   margin-right: 3px;
-}
-
-.Memory--Container {
-  align-self: center;
-  margin-bottom: 10px;
-  margin-top: 60px;
-}
-
-.Memory--Container__header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.Memory--Container__date {
-  justify-content: center;
-  text-align: center;
-  font-style: initial;
 }
 
 .loggedjournalnotes {

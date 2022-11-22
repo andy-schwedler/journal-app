@@ -1,4 +1,5 @@
 import "./App.css";
+import { Divider } from "./components/Divider/Divider";
 import { Entries } from "./components/Entries/Entries";
 import { Footer } from "./components/Footer/Footer";
 import { Form } from "./components/Form/Form";
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <Form />
       <Tab />
+      <Divider />
       <Entries />
       <Footer />
     </>

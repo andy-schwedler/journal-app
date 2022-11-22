@@ -1,0 +1,26 @@
+.Entries--Container {
+  align-self: center;
+  margin-bottom: 10px;
+  margin-top: 60px;
+}
+.Entries--Container__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Entries--Container__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Entries--Container__date {
+  justify-content: center;
+  text-align: center;
+  font-style: initial;
+}
+
+.loggedjournalnotes {
+  text-align: justify;
+}
