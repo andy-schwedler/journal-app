@@ -1,3 +1,5 @@
+import Button from "../Button/Button";
+
 export function Form() {
   return (
     <>
@@ -11,9 +13,9 @@ export function Form() {
           Notes
         </label>
         <textarea className="userinputtextarea" name="Notes" />
-        <button type="submit" className="button">
+        <Button type="submit" className="button">
           create
-        </button>
+        </Button>
       </form>
     </>
   );
