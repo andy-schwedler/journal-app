@@ -11,7 +11,7 @@ h3 {
   align-self: center;
 }
 
-.userinput {
+.mottoinput {
   height: 41px;
   width: 336px;
   left: 0px;
@@ -19,7 +19,7 @@ h3 {
   margin-bottom: 22px;
 }
 
-.userinputtextarea {
+.notesinput {
   height: 124px;
   width: 336px;
   left: 0px;

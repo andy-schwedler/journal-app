@@ -8,11 +8,11 @@ export function Form() {
         <label class="FormLabel" htmlFor="Motto">
           Motto
         </label>
-        <input className="userinput" />
+        <input className="mottoinput" name="Motto" />
         <label class="FormLabel" htmlFor="Notes">
           Notes
         </label>
-        <textarea className="userinputtextarea" name="Notes" />
+        <textarea className="notesinput" name="Notes" />
         <Button type="submit" className="button">
           create
         </Button>

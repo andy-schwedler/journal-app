@@ -6,6 +6,7 @@ import { Form } from "./components/Form/Form";
 import { Header } from "./components/Header/Header";
 import { Tab } from "./components/Tab/Tab";
 
+console.clear();
 function App() {
   return (
     <>
