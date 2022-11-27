@@ -1,5 +1,3 @@
-import "./Entries.css";
-
 export function Entries() {
   return (
     <>

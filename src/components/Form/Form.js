@@ -1,9 +1,13 @@
 import Button from "../Button/Button";
 
 export function Form() {
+  function handleSubmit(event) {
+    event.preventDefault();
+  }
+
   return (
     <>
-      <form className="EntryForm">
+      <form className="EntryForm" onSubmit={handleSubmit}>
         <h3>New Entry</h3>
         <label class="FormLabel" htmlFor="Motto">
           Motto
